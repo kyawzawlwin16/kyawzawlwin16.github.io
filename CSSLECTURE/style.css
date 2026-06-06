@@ -1,0 +1,51 @@
+/* Universal Selector */
+*{
+    color: red;
+}
+
+
+
+/* tag selector/elementselector */
+h1{
+    color: blue;
+    text-align: center;
+}
+
+
+
+/* attributes selector */
+a[title="google"]{
+    color: green;
+}
+
+
+#idselector{
+    color: blue;
+    font-size: 50px;
+}
+
+
+.classselector{
+color: brown;
+text-transform: capitalize;
+font-size: 20px;
+text-indent: 50px;
+}
+
+
+/* Descendment selector */
+.desc a{
+    color: green;
+}
+
+
+/* Childselector */
+
+.child > a{
+    color: blue;
+}
+span{
+    color: rgb(6, 222, 129);
+}
+
+/* Pseudo class selector */
